@@ -1,336 +1,208 @@
-# Github Tutorial
+Here's a full GitHub Markdown syntax layout for your Milestone 2: Language Development documentation, including code snippets, structured in a professional format.
 
-## Basis Formatting Syntax
+---
 
-### Headings Example
+# Milestone 2: Language Development  
+**Develop and Test the Enhanced Aiken Marketplace Contract Features**
 
-# A first-level heading
-## A second-level heading
-### A third-level heading
-#### A four-level heading
-##### A five-level heading
-###### A six-level heading
+## Milestone Outputs
+A set of developed and newly developed Aiken-lang smart contract features and functions. These enhancements will improve the NFT marketplace, Swap DEX performance, reduce operational costs, and enhance functionality within the Cardano marketplace ecosystem.
 
-### Paragraphs Example
+## Key Focus Areas
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est odio, commodo id diam sed, pulvinar sagittis tortor. Nam vestibulum purus eros. Sed congue, mi id pretium auctor, nibh augue iaculis arcu, eu tristique quam dolor at erat.
+### Prioritize Features
 
-Quisque vel odio condimentum, mollis sem vitae, porta diam. Praesent ligula elit, condimentum eget ex sed, commodo sollicitudin sapien.
+1. **Developer Experience**  
+   Aiken is designed to be easy to learn and use, drawing inspiration from modern languages like Gleam, Rust, and Elm.  
 
+2. **Robustness**  
+   Aiken prioritizes security and reliability for smart contracts, with tools for review, audit, and static analysis of code.  
 
-Proin volutpat faucibus nulla. Nullam eros sem, ultricies gravida nunc nec, dapibus posuere nisl. Nunc lacinia elementum turpis in pharetra. Aenean eu neque eros.
+3. **Focus on Cardano**  
+   Tailored specifically for Cardano, Aiken provides high-quality tools to develop secure, reliable contracts on the Cardano blockchain.  
 
+4. **Simplicity and Manageability**  
+   The language remains small and focused to reduce complexity and vulnerabilities.  
 
+### Feature Design
 
-### Comment Example
+Aiken's development centers around:
 
-<!-- This content will not appear in the rendered Markdown -->
+1. **Developer Experience**
+    - Type safety
+    - Functional programming paradigm
+    - Clear syntax
+    - Rich standard library
 
-### Styling text Example 
+2. **Robustness for Smart Contracts**
+    - Immutability
+    - Formal verification
+    - Resource management
+    - Access control  
 
-#### Bold
+### Example of Feature Design in Aiken
 
-**your text**
+#### Feature: Type Safety
 
-#### italics
-
-*your text*
-_your text_
-
-#### strikethrough
-
-~~your text~~
-
-#### subscript
-
-The subscript <sub> text </sub> is here.
-
-
-#### superscript
-
-The subscript <sup> text </sup> is here.
-
-
-### Quote Example
-
-> Text that is a quote
-
-
-### Code Example
-
-
-#### Code Block
-
-```
-// ES5 syntax
-var multiply = function(x, y) {
-  return x * y;
-};
-
-// ES6 arrow function
-var multiply = (x, y) => { return x * y; };
-
-// Or even simpler
-var multiply = (x, y) => x * y;   
-```
-
-#### Inline code Block
-
-## Inline code Block
-
-JavaScript provides three different value comparison operations: strict equality using `===`, loose equality using `==`, and the `Object.is()` method.
-
-#### Code Highlighting Example
-
-```javascript
-console.log('Hello World');
-```
-
-### Links Example
-
-#### Inline links
-
-This site was built using [GitHub Pages](https://pages.github.com/).
-
-#### Relative links
-
-[Contribution guidelines](docs/CONTRIBUTING.md)
-
-[Contribution guidelines](../docs/CONTRIBUTING.md)
-
-
-### Image Example
-
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
-
-### Lists Example
-
-#### Ordered list
-
-1. one
-2. two
-3. three
-4. four
-
-#### Unordered list
-
-* First item
-* Second item
-* Third item
-* Fourth item
-
-
-- First item
-- Second item
-- Third item
-- Fourth item
-
-+ First item
-+ Second item
-+ Third item
-+ Fourth item
-
-#### Task list
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-
-### Mentioning people and teams Example
-
-### Person or Individual Username
-
-@officialrajdeepsingh, check out the following change.
-
-### Team or Company Example
-
-The section blog theme is maintained by @frontendweb
-
-### Referencing issues and pull requests Example
-
-Remove the default _target blank in logo #93
-
-### Using Emojis Example
-
-Don't forget to leave a star on our repository! :star:
-
-### Footnotes Example
-
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
-[^1]: This is the first footnote.
-
-[^bignote]: Here's one with multiple paragraphs and code.
-
-### Alerts Example
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-
-## Advanced Formatting Syntax
-
-### Table Example
-
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Collapsed Section Example
-
-<details>
-  <summary>Click to here. </summary>
-   
-   ### You can add a message here
-
-   You can add text within a collapsed section. 
-
-   You can add an image or a code block, too.
-
-   ```ruby
-     puts "Hello World"
-   ```
-  
-</details>
-
-
-### Diagrams Example
-
-
-#### Mermaid Example
-
-
-```mermaid
-graph LR;
-   A --  and --> B -- to --> C
-```
-
-#### GeoJSON and TopoJSON Example
-
-##### GeoJSON
-
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
-        ]
-      }
+```rust
+fn validate_input(value: Integer) -> Bool {
+    if value > 0 {
+        True
+    } else {
+        False
     }
-  ]
-}
-```
-##### TopoJSON
-```topojson
-{
-  "type": "Topology",
-  "transform": {
-    "scale": [0.0005000500050005, 0.00010001000100010001],
-    "translate": [100, 0]
-  },
-  "objects": {
-    "example": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {
-          "type": "Point",
-          "properties": {"prop0": "value0"},
-          "coordinates": [4000, 5000]
-        },
-        {
-          "type": "LineString",
-          "properties": {"prop0": "value0", "prop1": 0},
-          "arcs": [0]
-        },
-        {
-          "type": "Polygon",
-          "properties": {"prop0": "value0",
-            "prop1": {"this": "that"}
-          },
-          "arcs": [[1]]
-        }
-      ]
-    }
-  },
-  "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
 }
 ```
 
-#### ASCII STL Example
+This ensures that the input is valid by checking if it's a positive integer.
 
-```stl
-solid cube_corner
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.0 0.0 -1.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -1.0 0.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex 0.0 1.0 0.0
-    endloop
-  endfacet
-  facet normal 0.577 0.577 0.577
-    outer loop
-      vertex 1.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-endsolid
+---
+
+## Coding Standards
+
+Aiken emphasizes simplicity and smart contract security:
+
+- **Standard Library Reference**: Review the Aiken standard library for examples of idiomatic and secure code.  
+- **Community Resources**: Participate in the Aiken-lang GitHub discussions and Reddit for best practices.  
+- **General Smart Contract Security**: Apply common security principles for smart contract development.
+
+---
+
+## Development Process
+
+The development of new features follows strict adherence to functional and non-functional requirements. All features must be thoroughly tested to ensure compatibility and performance within the Cardano ecosystem.
+
+### Test Plan Overview
+
+The test plan includes unit tests, integration tests, and performance tests of the developed Aiken functions.
+
+1. **Developed Features & Functions**:  
+   Test all existing and new functions developed using Aiken.  
+
+2. **Test Result Documentation**:  
+   Provide detailed test results, showcasing unit, integration, and performance testing outcomes.
+
+#### Example Test Case
+
+```rust
+test validate_input_test() {
+    assert validate_input(10) == True
+    assert validate_input(-1) == False
+}
 ```
 
-### Mathematical Expressions Example
+This is an example of a unit test written in Aiken to validate the `validate_input` function.
 
-#### Writing inline math expressions
+---
 
-The inline math expression example: $\sqrt{3x-1}+(1+x)^2$
+## Testing Phases
 
-#### Writing math expressions as code blocks
+1. **Unit Testing**:  
+   Aiken's built-in unit testing framework helps ensure individual functions work as intended.
 
-```math
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+    ```shell
+    aiken check
+    ```
+
+   The `aiken check` command executes all tests and generates a report.
+
+2. **Integration Testing**:  
+   Ensures all marketplace features interact smoothly, verifying data flow and state consistency.
+
+3. **Performance Testing**:  
+   Evaluates the efficiency and impact of new features under varying conditions.
+
+---
+
+## Testing Documentation
+
+Comprehensive documentation will be generated, including test plans, results, and any issues identified and resolved during development.
+
+1. **Unit Testing Example**:
+
+    ```shell
+    aiken check --unit-tests
+    ```
+
+2. **Integration Testing Results**:
+
+    ```shell
+    aiken check --integration-tests
+    ```
+
+3. **Performance Testing**:
+
+    ```shell
+    aiken check --performance-tests
+    ```
+
+---
+
+## Feature Documentation
+
+Detailed feature documentation should be created, providing clear usage examples, integration guidance, and best practices.
+
+#### Example of Function Documentation
+
+```rust
+/// Function to validate input
+/// - value: Integer to be validated
+/// Returns: Boolean indicating if the value is valid.
+fn validate_input(value: Integer) -> Bool {
+    // code here
+}
 ```
 
+---
 
+## Peer Review
+
+An in-depth review of Aiken's capabilities, especially for marketplace smart contracts, must be conducted to evaluate the following:
+
+- **Security**: Reentrancy protection, secure randomness, and integer overflow/underflow prevention.  
+- **Interoperability**: Seamless integration with Cardano's native tokens, NFTs, and oracles.  
+- **Code Readability**: Maintaining clean, concise, and maintainable code.  
+
+### Peer Review Example: Reentrancy Attack Prevention
+
+```rust
+fn secure_transaction(amount: Integer) -> Bool {
+    let balance_before = get_balance()
+    let success = perform_transaction(amount)
+    let balance_after = get_balance()
+    success && (balance_before == balance_after)
+}
+```
+
+This example checks balances before and after a transaction to prevent reentrancy attacks.
+
+---
+
+## Acceptance Criteria
+
+1. **General Functionality**:  
+   Must meet asset management, escrow, and offer management requirements, along with handling fees and access control securely.
+
+2. **Security**:  
+   Pass rigorous security tests for reentrancy protection and overflow prevention.
+
+3. **Interoperability**:  
+   Features must integrate with Cardano native tokens, NFTs, and oracles effectively.
+
+### Example: Secure Asset Management
+
+```rust
+fn transfer_asset(asset: Asset, from: Address, to: Address) -> Result {
+    if check_ownership(asset, from) {
+        initiate_transfer(asset, to)
+    } else {
+        Error("Not authorized")
+    }
+}
+```
+
+This feature ensures proper asset management with secure ownership verification.
+
+---
+
+This documentation outlines the full development and testing process, ensuring alignment with project goals for Milestone 2.
